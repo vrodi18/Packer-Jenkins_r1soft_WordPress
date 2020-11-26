@@ -7,7 +7,7 @@ Packer
 [![CI](https://travis-ci.org/sadsfae/ansible-elk.svg?branch=master)](https://travis-ci.org/sadsfae/ansible-elk)
 
 ## What does it do?
-Building AWS Mashine image for Jenkins, R1soft and Wordpress 
+Building AWS Mashine image for Jenkins, R1soft, Wordpress and MariaDB
 
 ![packer](/image/uses.png?raw=true "Click Discover")
 
@@ -24,6 +24,10 @@ Building AWS Mashine image for Jenkins, R1soft and Wordpress
 * To run Wordpress:
 ```
    packer build -var-file vars/wordpress_vars.json tools/wordpress.json 
+```
+* To run MariaDB:
+```
+   packer build  tools/MariaDB.json 
 ```
 
 
