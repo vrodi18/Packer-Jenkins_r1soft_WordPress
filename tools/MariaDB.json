@@ -23,7 +23,7 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "files/example.sh"
+            "script": "files/MariaDB.sh"
                 },
         {
             "type": "breakpoint",
